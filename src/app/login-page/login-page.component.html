@@ -1,0 +1,21 @@
+<!-- login.component.html -->
+<mat-card class="login-card">
+  <mat-card-header>
+    <mat-card-title>Login</mat-card-title>
+    <mat-card-subtitle>Enter your credentials</mat-card-subtitle>
+  </mat-card-header>
+  <form>
+    <mat-form-field class="login-form-field">
+      <mat-label>Username</mat-label>
+      <input matInput placeholder="Enter your username" />
+    </mat-form-field>
+    <mat-form-field class="login-form-field">
+      <label>Password</label>
+      <input matInput type="password" placeholder="Enter your password" />
+    </mat-form-field>
+    <button mat-raised-button color="primary" class="login-button">
+      Login
+    </button>
+    <a mat-button class="forgot-password-link">Forgot password?</a>
+  </form>
+</mat-card>
